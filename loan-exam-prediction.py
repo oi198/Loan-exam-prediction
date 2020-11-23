@@ -21,7 +21,7 @@ from sklearn.metrics import accuracy_score
 
 
 #--------------------------------------------------------------------------------------------------
-df = pd.read_csv('./data/av_loan_u6lujuX_CVtuZ9i.csv', header=0) #モデル用データを取得
+df = pd.read_csv('./xxxxx/av_loan_u6lujuX_CVtuZ9i.csv', header=0) #モデル用データを取得
 
 #print(df) 取得したモデル用データフレームを表示
 
@@ -30,7 +30,7 @@ ID = X.iloc[:,[0]]             # 第0列はIDとしてセット
 X  = X.drop('Loan_ID', axis=1) # Loan_IDは特徴ベクトルから削除
 y  = df.iloc[:,-1]             # 最終列は正解ラベル
 #--------------------------------------------------------------------------------------------------
-df_s = pd.read_csv('./data/av_loan_test_Y3wMUE5_7gLdaTN.csv', header=0) #スコア用データを取得
+df_s = pd.read_csv('./xxxxx/av_loan_test_Y3wMUE5_7gLdaTN.csv', header=0) #スコア用データを取得
 
 #print(df_s) 取得したスコア用データフレームを表示
 
