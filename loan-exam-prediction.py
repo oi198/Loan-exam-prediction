@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[12]:
-
-
 import pandas as pd
 from sklearn.impute import SimpleImputer
 from sklearn.feature_selection import RFE
