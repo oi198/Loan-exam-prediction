@@ -79,5 +79,8 @@
 
 さらにモデル用データに対してRFEクラスを使い、特徴量因子の重要度を推定しつつ、重要な特徴量だけを10個選択します。<br>
 
-
+|ApplicantIncome|CoapplicantIncome|LoanAmount|Loan_Amount_Term|Credit_History|Dependents_0|Dependents_1|Dependents_2|Dependents_3+|Dependents_nan|Gender_Female|Gender_Male|Gender_nan|Married_No|Married_Yes|Married_nan|
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+       
+Education_Graduate','Education_Not Graduate', 'Education_nan', 'Self_Employed_No','Self_Employed_Yes', 'Self_Employed_nan', 'Property_Area_Rural','Property_Area_Semiurban', 'Property_Area_Urban','Property_Area_nan'
 モデル用データのみに登場する変数を復活させ、反対にスコア用データのみに登場する変数を削除します。<br>
