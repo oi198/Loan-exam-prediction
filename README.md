@@ -108,5 +108,13 @@
 スコア用データ圧縮後(特徴量10個)
 |ApplicantIncome|CoapplicantIncome|LoanAmount|Loan_Amount_Term|Credit_History|Dependents_0|Married_No|Education_Graduate|Property_Area_Rural|Property_Area_Semiurban|
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+<br>
+
+### ホールドアウト
+
+train_test_splitクラスを使い、モデル用データを7:3の大きさでランダムに訓練用データとテスト用データに分割する。<br>
+<br>
+
+### モデル作成
 
 
