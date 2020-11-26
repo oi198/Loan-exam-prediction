@@ -27,7 +27,9 @@
 |Y|   
 |N|
 |Y|
-https://uploda1.ysklog.net/6f5dc158e4f9805703011355d596deb1.jpg
+
+<img src="https://uploda1.ysklog.net/6f5dc158e4f9805703011355d596deb1.jpg" width="100">
+
 
 
 
