@@ -39,6 +39,8 @@
 |1|
 |0|
 
+<br>
+
 (2)モデル用データに対してone-hotエンコーディングを行い、カテゴリ変数を数値化します。<br>
 
 (例)
@@ -57,6 +59,8 @@
 |0|1|0|0|
 |0|0|1|0|
 |0|0|0|1|
+
+<br>
 
 (3)モデル用データに対してSimpleImputerクラスを使い、欠損値を平均値で補完します。<br>
 
@@ -79,14 +83,17 @@
 |4000|
 |5000|
 
+<br>
+
 (4)モデル用データに対してRFEクラスを使い、特徴量因子の重要度を推定しつつ、重要な特徴量だけを10個選択します。<br>
 
+(特徴量26個)
 |ApplicantIncome|CoapplicantIncome|LoanAmount|Loan_Amount_Term|Credit_History|Dependents_0|Dependents_1|Dependents_2|Dependents_3+|Dependents_nan|Gender_Female|Gender_Male|Gender_nan|Married_No|Married_Yes|Married_nan|Education_Graduate|Education_NotGraduate|Education_nan|Self_Employed_No|Self_Employed_Yes|Self_Employed_nan|Property_Area_Rural|Property_Area_Semiurban|Property_Area_Urban|Property_Area_nan|
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-(特徴量26個)
 
 &nbsp; &nbsp; &nbsp; <img src="https://uploda2.ysklog.net/135c254819b82f68a3113a21fcd44f09.jpg" width="50">
 
+(特徴量10個)
 |ApplicantIncome|CoapplicantIncome|LoanAmount|Loan_Amount_Term|Credit_History|Dependents_0|Married_No|Education_Graduate|Property_Area_Rural|Property_Area_Semiurban|
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
 
