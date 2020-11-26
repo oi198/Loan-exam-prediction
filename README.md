@@ -27,6 +27,9 @@
 |Y|   
 |N|
 |Y|
+https://uploda1.ysklog.net/6f5dc158e4f9805703011355d596deb1.jpg
+
+
 
 次にモデル用データに対してone-hotエンコーディングを行い、カテゴリ変数を数値化します。<br>
 
