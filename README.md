@@ -81,6 +81,12 @@
 
 |ApplicantIncome|CoapplicantIncome|LoanAmount|Loan_Amount_Term|Credit_History|Dependents_0|Dependents_1|Dependents_2|Dependents_3+|Dependents_nan|Gender_Female|Gender_Male|Gender_nan|Married_No|Married_Yes|Married_nan|Education_Graduate|Education_NotGraduate|Education_nan|Self_Employed_No|Self_Employed_Yes|Self_Employed_nan|Property_Area_Rural|Property_Area_Semiurban|Property_Area_Urban|Property_Area_nan|
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-       
+(特徴量26個)
+
+&nbsp; &nbsp; &nbsp; <img src="https://uploda2.ysklog.net/135c254819b82f68a3113a21fcd44f09.jpg" width="50">
+
+|ApplicantIncome|CoapplicantIncome|LoanAmount|Loan_Amount_Term|Credit_History|Dependents_0|Married_No|Education_Graduate|Property_Area_Rural|Property_Area_Semiurban|
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
 
 モデル用データのみに登場する変数を復活させ、反対にスコア用データのみに登場する変数を削除します。<br>
+
