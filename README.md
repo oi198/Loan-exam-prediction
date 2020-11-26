@@ -38,6 +38,22 @@
 
 次にモデル用データに対してone-hotエンコーディングを行い、カテゴリ変数を数値化します。<br>
 
+|Dependents|
+|:---|
+|0|
+|1|
+|2|
+|3+|
+
+&nbsp; &nbsp; &nbsp; <img src="https://uploda2.ysklog.net/135c254819b82f68a3113a21fcd44f09.jpg" width="50">
+
+|Dependents_0|Dependents_1|Dependents_2|Dependents_3+|
+|:---|:---|:---|:---|
+|1|0|0|0|
+|0|1|0|0|
+|0|0|1|0|
+|0|0|0|1|
+
 次にモデル用データに対してSimpleImputerクラスを使い、欠損値を平均値で補完します。<br>
 
 さらにモデル用データに対してRFEクラスを使い、特徴量因子の重要度を推定しつつ、重要な特徴量だけを10個選択します。<br>
