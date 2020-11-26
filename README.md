@@ -58,6 +58,25 @@
 
 次にモデル用データに対してSimpleImputerクラスを使い、欠損値を平均値で補完します。<br>
 
+(例)
+|ApplicantIncome|
+|:---|
+|3000|
+|7000|
+|NaN|
+|4000|
+|5000|
+
+&nbsp; &nbsp; &nbsp; <img src="https://uploda2.ysklog.net/135c254819b82f68a3113a21fcd44f09.jpg" width="50">
+
+|ApplicantIncome|
+|:---|
+|3000|
+|7000|
+|4750|
+|4000|
+|5000|
+
 さらにモデル用データに対してRFEクラスを使い、特徴量因子の重要度を推定しつつ、重要な特徴量だけを10個選択します。<br>
 
 
