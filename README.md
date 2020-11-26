@@ -28,7 +28,7 @@
 |N|
 |Y|
 
-&nbsp; &nbsp; <img src="https://uploda2.ysklog.net/135c254819b82f68a3113a21fcd44f09.jpg" width="50">
+&nbsp; &nbsp; &nbsp; <img src="https://uploda2.ysklog.net/135c254819b82f68a3113a21fcd44f09.jpg" width="50">
 
 |Loan_Status|
 |:---|
